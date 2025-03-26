@@ -21,7 +21,6 @@ public class Topic_01_Check_Environment {
         driver.get("https://www.facebook.com/");
         driver.quit();
     }
-//Add new
     @Test
     public void TC_03_Run_On_Edge() {
         driver = new EdgeDriver();
